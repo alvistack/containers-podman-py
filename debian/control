@@ -1,0 +1,31 @@
+Source: python-podman
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/containers/podman-py/tags
+Vcs-Browser: https://github.com/alvistack/containers-podman-py
+Vcs-Git: https://github.com/alvistack/containers-podman-py.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-podman
+Architecture: all
+Description: Bindings for Podman RESTful API
+ This python package is a library of bindings to use the RESTful API of
+ Podman.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-xdg (>= 0.26),
+ python3-requests (>= 2.24),
+ python3-toml (>= 0.10.2),
+ python3-typing-extensions,
+ python3-urllib3 (>= 1.24.2),
