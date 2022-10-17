@@ -1,0 +1,5 @@
+python-podman (100:4.0.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/containers/podman-py/releases/tag/v4.0.0
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Tue, 01 Mar 2022 09:09:42 +0800
