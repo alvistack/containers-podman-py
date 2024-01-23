@@ -1,0 +1,5 @@
+python-podman (100:5.5.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/containers/podman-py/releases/tag/v5.5.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Wed, 18 Jun 2025 10:52:02 +0800
