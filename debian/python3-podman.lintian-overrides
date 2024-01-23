@@ -1,0 +1,4 @@
+python3-podman: copyright-without-copyright-notice
+python3-podman: initial-upload-closes-no-bugs
+python3-podman: no-manual-page
+python3-podman: zero-byte-file-in-doc-directory
