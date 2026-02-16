@@ -1,0 +1,5 @@
+python-podman source: file-without-copyright-information
+python-podman source: no-debian-changes
+python-podman source: source-contains-prebuilt-windows-binary
+python-podman source: source-is-missing
+python-podman source: source-package-encodes-python-version
